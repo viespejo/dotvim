@@ -13,9 +13,6 @@
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
-[submodule "bundle/quickfixsigns_vim"]
-	path = bundle/quickfixsigns_vim
-	url = git://github.com/tomtom/quickfixsigns_vim.git
 [submodule "bundle/checksyntax_vim"]
 	path = bundle/checksyntax_vim
 	url = git://github.com/tomtom/checksyntax_vim.git
