@@ -54,9 +54,9 @@ set showcmd
 " Error bells are displayed visually.
 set visualbell
 set nobackup " make backup files
-set backupdir=~/.vim/backup " where to put backup files
+"set backupdir=~/.vim/backup " where to put backup files
 set noswapfile
-set directory=~/.vim/tmp " directory to place swap files in
+"set directory=~/.vim/tmp " directory to place swap files in
 set fileformats=unix,dos,mac " support all three, in this order
 set mouse=a " use mouse everywhere
 "statusline 
