@@ -1,5 +1,3 @@
-" auto switch to folder where editing file
-autocmd BufEnter * silent! cd %:p:h
 "saving a session when quitting Vim, and restoring the session when opening Vim
 au VimLeave * call VimLeave()
 au VimEnter * call VimEnter()

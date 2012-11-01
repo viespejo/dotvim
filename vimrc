@@ -71,6 +71,8 @@ let Tlist_Exit_OnlyWindow = 1
 "let treeExplVertical = 1
 "let treeExplNoList = 1
 "let treeExplWinSize = 30
+" auto switch to folder where editing file
+autocmd BufEnter * silent! cd %:p:h
 "mappings
 source ~/.vim/mapping.vim
 "session management
