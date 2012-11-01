@@ -75,3 +75,5 @@ let g:pdv_cfg_Author = "Vicente Espejo <viespejo@gmail.com>"
 let g:pdv_cfg_Copyright = ""
 let g:pdv_cfg_License = ""
 let b:php_large_file = 0
+"php folding
+let php_folding = 3

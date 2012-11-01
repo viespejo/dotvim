@@ -25,3 +25,6 @@
 [submodule "bundle/UltiSnips"]
 	path = bundle/UltiSnips
 	url = git://github.com/vim-scripts/UltiSnips.git
+[submodule "bundle/nerdcommenter"]
+	path = bundle/nerdcommenter
+	url = git://github.com/scrooloose/nerdcommenter.git

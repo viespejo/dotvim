@@ -10,8 +10,6 @@ set number
 syntax on
 "color
 colo desert
-"php folding
-let php_folding = 3
 "projects
 let g:proj_flags = "imstgv"
 "sql type default
