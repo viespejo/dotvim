@@ -1,1 +1,2 @@
-/*jslint passfail: false, plusplus: true */
+/*jslint passfail: false, plusplus: true, sloppy: true */
+/*global Ext */
