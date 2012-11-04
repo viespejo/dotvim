@@ -10,6 +10,8 @@ set number
 syntax on
 "color
 colo desert
+"mapleader
+let mapleader = ','
 "projects
 let g:proj_flags = "imstgv"
 "sql type default
