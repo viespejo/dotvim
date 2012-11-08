@@ -5,6 +5,10 @@ set go-=T
 colo wombat
 " Size of GVim window
 set lines=30 columns=121
+"Powerline
+"set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
+"set guifont=Monaco\ for\ Powerline\ 10
+set guifont=Monaco\ 10
 "tabs
 set guitablabel=%{ShortTabLabel()}   
 function ShortTabLabel()

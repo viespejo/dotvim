@@ -60,7 +60,7 @@ set noswapfile
 set fileformats=unix,dos,mac " support all three, in this order
 set mouse=a " use mouse everywhere
 "statusline 
-set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\[HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
+"set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\[HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2
 " taglist configuration
 let Tlist_Show_One_File = 1
@@ -71,6 +71,8 @@ let Tlist_Exit_OnlyWindow = 1
 "let treeExplVertical = 1
 "let treeExplNoList = 1
 "let treeExplWinSize = 30
+"Powerline
+let g:Powerline_symbols = 'fancy'
 " auto switch to folder where editing file
 autocmd BufEnter * silent! cd %:p:h
 "mappings
