@@ -63,11 +63,11 @@ set mouse=a " use mouse everywhere
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\[HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2
 " taglist configuration
-let Tlist_Show_One_File = 1
-let Tlist_Sort_Type = "name"
-let Tlist_Auto_Highlight_Tag = 0
-let Tlist_php_settings = 'php;c:class;f:function'
-let Tlist_Exit_OnlyWindow = 1
+let tlist_Show_One_File = 1
+let tlist_Sort_Type = "name"
+let tlist_Auto_Highlight_Tag = 0
+let tlist_php_settings = 'php;c:class;f:function'
+let tlist_Exit_OnlyWindow = 1
 "let treeExplVertical = 1
 "let treeExplNoList = 1
 "let treeExplWinSize = 30
@@ -81,3 +81,8 @@ source ~/.vim/mapping.vim
 source ~/.vim/session.vim
 "abbreviations
 source ~/.vim/abbreviations.vim
+"PHP
+let php_large_file = 0
+let php_folding = 3
+let php_sql_query = 0
+let php_htmlInStrings = 0
