@@ -9,3 +9,7 @@ nmap <silent> <F8> :TlistToggle<CR>
 " nmap <silent> <F7> :VSTreeExplore<CR>
 "Mapping NERDTree
 nmap <silent> <F7> :NERDTreeToggle<CR>
+"Resize windows
+nmap <silent> <F2> <C-W><Bar><Space>
+nmap <silent> <F3> <C-W>_<Space>
+nmap <silent> <F4> <C-W>=<Space>

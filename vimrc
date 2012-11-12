@@ -84,5 +84,5 @@ source ~/.vim/abbreviations.vim
 "PHP
 let php_large_file = 0
 let php_folding = 3
-let php_sql_query = 0
-let php_htmlInStrings = 0
+let php_sql_query = 1
+let php_htmlInStrings = 1
