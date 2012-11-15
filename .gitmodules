@@ -40,3 +40,6 @@
 [submodule "bundle/jslint"]
 	path = bundle/jslint
 	url = https://github.com/viespejo/jslint.vim.git
+[submodule "bundle/checksyntax_vim"]
+	path = bundle/checksyntax_vim
+	url = https://github.com/viespejo/checksyntax_vim.git
