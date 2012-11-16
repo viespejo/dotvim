@@ -13,3 +13,5 @@ nmap <silent> <F7> :NERDTreeToggle<CR>
 nmap <silent> <F2> <C-W><Bar><Space>
 nmap <silent> <F3> <C-W>_<Space>
 nmap <silent> <F4> <C-W>=<Space>
+"Gundo
+nnoremap <c-F5> :GundoToggle<CR>
