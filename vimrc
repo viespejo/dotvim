@@ -88,3 +88,7 @@ let php_sql_query = 1
 let php_htmlInStrings = 1
 "Gundo
 let g:gundo_right = 1
+"Syntastic
+let g:syntastic_javascript_checker="jshint"
+let g:syntastic_javascript_jshint_conf = " --extra-ext .json,.pjs"
+"let g:syntastic_javascript_jslint_conf = " --additional_extensions .json,.pjs"
