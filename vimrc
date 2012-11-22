@@ -49,7 +49,7 @@ set wildmode=list:longest
 set wildmenu
 set showcmd
 "highlight line
-"set cursorline
+set cursorline
 "highlight CursorLine guibg=lightblue ctermbg=lightgray
 " Error bells are displayed visually.
 set visualbell
@@ -62,15 +62,17 @@ set mouse=a " use mouse everywhere
 "statusline 
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\[HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2
+" Easy window navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 " taglist configuration
 let tlist_Show_One_File = 1
 let tlist_Sort_Type = "name"
 let tlist_Auto_Highlight_Tag = 0
 let tlist_php_settings = 'php;c:class;f:function'
 let tlist_Exit_OnlyWindow = 1
-"let treeExplVertical = 1
-"let treeExplNoList = 1
-"let treeExplWinSize = 30
 "Powerline
 let g:Powerline_symbols = 'fancy'
 " auto switch to folder where editing file
