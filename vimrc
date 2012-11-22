@@ -63,10 +63,19 @@ set mouse=a " use mouse everywhere
 "set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\[HEX=\%02.2B]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 set laststatus=2
 " Easy window navigation
-nnoremap <C-h> <C-w>h
-nnoremap <C-j> <C-w>j
-nnoremap <C-k> <C-w>k
-nnoremap <C-l> <C-w>l
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+" Disable arrow key
+map <up> <nop>
+imap <up> <nop>
+map <down> <nop>
+imap <down> <nop>
+map <left> <nop>
+imap <left> <nop>
+map <right> <nop>
+imap <right> <nop>
 " taglist configuration
 let tlist_Show_One_File = 1
 let tlist_Sort_Type = "name"
