@@ -4,7 +4,7 @@ set go-=T
 "color
 colo wombat
 " Size of GVim window
-set lines=1000 columns=1000
+"set lines=1000 columns=1000
 "Powerline
 "set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
 "set guifont=Monaco\ for\ Powerline\ 10

@@ -9,7 +9,8 @@ set number
 "syntax highlighting
 syntax on
 "color
-colo desert
+set t_Co=256
+colo wombat256mod
 "mapleader
 let mapleader = ','
 "projects
@@ -49,7 +50,7 @@ set wildmode=list:longest
 set wildmenu
 set showcmd
 "highlight line
-set cursorline
+"set cursorline
 "highlight CursorLine guibg=lightblue ctermbg=lightgray
 " Error bells are displayed visually.
 set visualbell
@@ -95,11 +96,12 @@ source ~/.vim/abbreviations.vim
 "PHP
 let php_large_file = 0
 let php_folding = 3
-let php_sql_query = 1
-let php_htmlInStrings = 1
+let php_sql_query = 0
+let php_htmlInStrings = 0
 "Gundo
 let g:gundo_right = 1
 "Syntastic
 let g:syntastic_javascript_checker="jshint"
 let g:syntastic_javascript_jshint_conf = " --extra-ext .json,.pjs"
-"let g:syntastic_javascript_jslint_conf = " --additional_extensions .json,.pjs"
+let g:syntastic_javascript_gjslint_conf = " --additional_extensions json,pjs"
+let g:syntastic_javascript_jslint_conf = " --additional_extensions .json,.pjs"

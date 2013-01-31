@@ -1,0 +1,28 @@
+snippet switch "switch statement"
+switch (${1:expression}) {
+    case '${3:case}':
+        ${4:// code}
+        break;
+    ${5}
+    default:
+        ${2:// code}
+}
+endsnippet
+
+snippet case "simple case statement"
+case '${1:case}':
+    ${2:// code}
+    break;
+${3}
+endsnippet
+
+snippet ife "if ___ else" !
+if (${1:true}) {
+} else {
+}
+endsnippet
+
+snippet if "if" !
+if (${1:true}) {
+}
+endsnippet
