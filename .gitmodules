@@ -49,3 +49,6 @@
 [submodule "bundle/vim-grep"]
 	path = bundle/vim-grep
 	url = git://github.com/vim-scripts/grep.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
