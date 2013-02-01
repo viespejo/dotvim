@@ -105,3 +105,6 @@ let g:syntastic_javascript_checker="jshint"
 let g:syntastic_javascript_jshint_conf = " --extra-ext .json,.pjs"
 let g:syntastic_javascript_gjslint_conf = " --additional_extensions json,pjs"
 let g:syntastic_javascript_jslint_conf = " --additional_extensions .json,.pjs"
+"Grep.vim
+let Grep_Default_Options = '-i -I'
+let Grep_Skip_Dirs = '\.git \.svn tags'
