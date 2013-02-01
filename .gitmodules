@@ -1,9 +1,6 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
-[submodule "bundle/taglist"]
-	path = bundle/taglist
-	url = git://github.com/vim-scripts/taglist.vim
 [submodule "bundle/vim-project"]
 	path = bundle/vim-project
 	url = git://github.com/shemerey/vim-project.git
@@ -52,3 +49,6 @@
 [submodule "bundle/vim-grep"]
 	path = bundle/vim-grep
 	url = git://github.com/vim-scripts/grep.vim.git
+[submodule "bundle/tagbar"]
+	path = bundle/tagbar
+	url = git://github.com/majutsushi/tagbar.git
