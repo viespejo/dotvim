@@ -3,8 +3,8 @@ nmap <c-s> :w<CR>
 imap <c-s> <Esc>:w<CR>a
 "Mapping Omni Complete
 imap <c-space> <c-x><c-o>
-"Mapping TagList
-nmap <silent> <F8> :TlistToggle<CR>
+"Tagbar
+nmap <silent> <F8> :TagbarToggle<CR>
 "Mapping Vtreeexplorer
 " nmap <silent> <F7> :VSTreeExplore<CR>
 "Mapping NERDTree
