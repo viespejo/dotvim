@@ -109,3 +109,4 @@ let g:syntastic_javascript_jslint_conf = " --additional_extensions .json,.pjs"
 let Grep_Default_Options = '-i -I'
 let Grep_Skip_Dirs = '\.git \.svn tags'
 let g:tagbar_phpctags_bin='~/phpctags/phpctags'
+set tags+=./.tags;/
