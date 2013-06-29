@@ -58,3 +58,6 @@
 [submodule "bundle/tagbar-phpctags"]
 	path = bundle/tagbar-phpctags
 	url = git://github.com/techlivezheng/tagbar-phpctags.git
+[submodule "bundle/vdebug"]
+	path = bundle/vdebug
+	url = git://github.com/joonty/vdebug.git
