@@ -113,3 +113,25 @@ set tags+=./.tags;/
 " tunning performance
 set lazyredraw
 set ttyfast
+" VDebug
+let g:vdebug_options= {
+            \"port" : 9000,
+            \"server" : '172.19.115.171',
+            \"timeout" : 30,
+            \"on_close" : 'detach',
+            \"break_on_open" : 0,
+            \"ide_key" : 'XDEBUG_VIESPEJO',
+            \"debug_window_level" : 0,
+            \"debug_file_level" : 0,
+            \"path_maps" : {"/www/" : "/mnt/tresse05/www/"},
+            \"debug_file" : "/tmp/vdebug.log",
+            \"watch_window_style" : 'expanded',
+            \"marker_default" : '⬦',
+            \"marker_closed_tree" : '▸',
+            \"marker_open_tree" : '▾'
+            \}
+"let g:vdebug_options.server = 'localhost'
+"let g:vdebug_options.path_maps = {'/www/' : '/www/'}
+let g:vdebug_features= {
+            \"max_data" : 4096
+            \}
