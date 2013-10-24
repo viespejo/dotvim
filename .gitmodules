@@ -1,66 +1,88 @@
 [submodule "bundle/vim-pathogen"]
 	path = bundle/vim-pathogen
 	url = git://github.com/tpope/vim-pathogen.git
+    ignore = dirty
 [submodule "bundle/vim-project"]
 	path = bundle/vim-project
 	url = git://github.com/shemerey/vim-project.git
+    ignore = dirty
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
+    ignore = dirty
 [submodule "bundle/bufexplorer"]
 	path = bundle/bufexplorer
 	url = git://github.com/vim-scripts/bufexplorer.zip.git
+    ignore = dirty
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+    ignore = dirty
 [submodule "bundle/phpdocumentor"]
 	path = bundle/phpdocumentor
 	url = git://github.com/vim-scripts/PDV--phpDocumentor-for-Vim.git
+    ignore = dirty
 [submodule "bundle/UltiSnips"]
 	path = bundle/UltiSnips
 	url = git://github.com/vim-scripts/UltiSnips.git
+    ignore = dirty
 [submodule "bundle/nerdcommenter"]
 	path = bundle/nerdcommenter
 	url = git://github.com/scrooloose/nerdcommenter.git
+    ignore = dirty
 [submodule "bundle/powerline"]
 	path = bundle/powerline
 	url = git://github.com/Lokaltog/vim-powerline.git
+    ignore = dirty
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+    ignore = dirty
 [submodule "bundle/matchit"]
 	path = bundle/matchit
 	url = git://github.com/vim-scripts/matchit.zip.git
+    ignore = dirty
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = git://github.com/godlygeek/tabular.git
+    ignore = dirty
 [submodule "bundle/gundo"]
 	path = bundle/gundo
 	url = http://github.com/sjl/gundo.vim.git
+    ignore = dirty
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = git://github.com/tpope/vim-fugitive.git
+    ignore = dirty
 [submodule "bundle/NrrwRgn"]
 	path = bundle/NrrwRgn
 	url = git://github.com/chrisbra/NrrwRgn.git
+    ignore = dirty
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+    ignore = dirty
 [submodule "bundle/vim-grep"]
 	path = bundle/vim-grep
 	url = git://github.com/vim-scripts/grep.vim.git
+    ignore = dirty
 [submodule "bundle/tagbar"]
 	path = bundle/tagbar
 	url = git://github.com/majutsushi/tagbar.git
+    ignore = dirty
 [submodule "bundle/vim-javascript"]
 	path = bundle/vim-javascript
 	url = git://github.com/pangloss/vim-javascript.git
+    ignore = dirty
 [submodule "bundle/tagbar-phpctags"]
 	path = bundle/tagbar-phpctags
 	url = git://github.com/techlivezheng/tagbar-phpctags.git
+    ignore = dirty
 [submodule "bundle/vdebug"]
 	path = bundle/vdebug
 	url = git://github.com/joonty/vdebug.git
+    ignore = dirty
 [submodule "bundle/ctrlp.vim"]
 	path = bundle/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
+    ignore = dirty
