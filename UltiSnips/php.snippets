@@ -7,3 +7,25 @@ endsnippet
 snippet phpi "PHP Tag InLine"
 <?=$0?>
 endsnippet
+
+snippet xd "XDebug Break Function"
+xdebug_break();
+endsnippet
+
+snippet switch "Switch Statement"
+switch (${1:expression}) {
+    case '${3:case}':
+        ${4:// code}
+        break;
+    ${5}
+    default:
+        ${2:// code}
+}
+endsnippet
+
+snippet case "Simple Case Statement"
+case '${1:case}':
+    ${2:// code}
+    break;
+${3}
+endsnippet
