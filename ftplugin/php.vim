@@ -69,7 +69,7 @@ endfunction
 "   the cursor is in exactly the same spot, and the man
 "   page for php is visible
 "inoremap <buffer> <C-p> <C-O>:call OpenPhpFunction('<c-r><c-w>')<CR><C-O>:wincmd p<CR>
-nnoremap <buffer> <C-p> :call OpenPhpFunction('<c-r><c-w>')<CR>:wincmd p<CR>
+nnoremap <buffer> <Leader>p :call OpenPhpFunction('<c-r><c-w>')<CR>:wincmd p<CR>
 "vnoremap <buffer> <C-p> :call OpenPhpFunction('<c-r><c-w>')<CR>:wincmd p<CR>
 let g:pdv_cfg_Author = "Vicente Espejo <viespejo@gmail.com>"
 let g:pdv_cfg_Copyright = ""
