@@ -66,10 +66,6 @@
 	path = bundle/vim-grep
 	url = git://github.com/vim-scripts/grep.vim.git
     ignore = dirty
-[submodule "bundle/tagbar-phpctags"]
-	path = bundle/tagbar-phpctags
-	url = git://github.com/techlivezheng/tagbar-phpctags.git
-    ignore = dirty
 [submodule "bundle/vdebug"]
 	path = bundle/vdebug
 	url = git://github.com/joonty/vdebug.git
